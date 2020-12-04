@@ -76,8 +76,8 @@ $(document).ready(function() {
     //blog carousel
     $('#blog-slider').owlCarousel({
         center: true,
-        autoplay: false,
-        autoplayTimeout: 5000,
+        autoplay: true,
+        autoplayTimeout: 4000,
         autoplayHoverPause: true,
         loop: true,
         margin: 10,
@@ -93,7 +93,6 @@ $(document).ready(function() {
             600: {
                 items: 1,
                 nav: true,
-                center: false,
             },
             1000: {
                 items: 4,
